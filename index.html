@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer ></script>
+</head>
+<body>
+    <div class="header">
+        <div class="library">library</div>
+        <button class="log">Log in</button>
+    </div>
+
+    <div class="addBook">
+        <button class="add">+ Add book</button>
+    </div>
+
+    <dialog id="Dialog">
+
+        <form id="bookForm">
+            <label for="title"></label>
+            <input type="text" id="title" name="title" placeholder="Title"> <br>
+            <label for="author"></label>
+            <input type="text" id="author" name="author" placeholder="Author"> <br>
+            <label for="pages"></label>
+            <input type="number" id="pages" name="pages" placeholder="No. of pages"> <br>
+            <div>
+            <input type="radio" id="read" name="read" value="Read">
+            <label for="read">Read</label>
+            <input type="radio" id="notRead" name="read" value="Not Read yet" checked>
+            <label for="notRead">Not Read yet</label>
+            </div>
+            <div>
+                <button id="cancel" type="button">Cancel</button>
+                <button id="confrimBtn" type="submit">Confirm</button>
+            </div>
+        </form>
+
+    </dialog>
+
+    <div class="container"></div>
+</body>
+</html>

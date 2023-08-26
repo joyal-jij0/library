@@ -1,0 +1,83 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: dodgerblue;
+    height: 100px;
+    border-bottom: black solid 5px;
+}
+.addBook{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.library{
+    font-size: 40px;
+    padding: 20px;
+}
+
+button{
+    height: 70px;
+    margin: 15px ;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: dodgerblue;
+    border: black solid 2px;
+}
+
+.add{
+    width: 200px;
+    border: black solid 5px;
+    font-weight: bold;
+}
+
+.card{
+    border: black solid 4px;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: dodgerblue;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+form{
+    height: 280px;
+    font-size: 20px;
+}
+form>div{
+    margin: 25px;
+}
+
+form>*{
+    font-size: 20px;
+}
+
+.close{
+    background-color: lightcoral;
+    width: 40px;
+    height: 40px;
+
+}
+
+.toggle{
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+}
+
+
+.toggle-read{
+    background-color: white;
+    height: 25px;
+    font-size: 15px;
+}

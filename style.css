@@ -78,6 +78,6 @@ form>*{
 
 .toggle-read{
     background-color: white;
-    height: 25px;
     font-size: 15px;
+    padding: 0;
 }
